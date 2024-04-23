@@ -4,13 +4,14 @@
 Shailendra Mruthunjaya
 
 #### Executive summary
-This project aims to develop a predictive model to assist part-time or hobby traders in making informed decisions regarding S&P 500 stocks. Leveraging historical stock price data and external factors such as news and trends, the model will provide recommendations on whether to hold, buy, or sell stocks. Data will be sourced from Kaggle datasets and APIs like Yahoo Finance. Time series forecasting techniques and classifiers will be employed for analysis, with the goal of streamlining decision-making and reducing the time required for stock analysis. The outcome will be a user-friendly app that facilitates efficient stock trading decisions.
+This project aims to develop a predictive model to assist part-time or hobby traders in making informed decisions regarding S&P 500 stocks. Leveraging historical stock price data and external factors such as news and trends, the model will provide recommendations on whether to hold, buy, or sell stocks. Data will be sourced from Kaggle datasets and APIs like Yahoo Finance. Time series forecasting techniques and classifiers will be employed for analysis, with the goal of streamlining decision-making and reducing the time required for stock analysis. The outcome will be a user-friendly app that facilitates efficient stock trading decisions. Users can input the stock tickers they hold or monitor, and the model will offer recommendations on optimal selling times for held stocks and opportune moments for purchasing monitored stocks.
 
 #### Rationale
-For part-time or hobby traders predicting which stock to hold, buy or sell could be time consuming process. Will the stock price go up or down based on news, companies’ financial results, should I hold the stock for dividends. Can we build a model to predict whether to hold, buy, or sell S&P 500 stocks based on historical data and external factors like news and trends?
+For part-time or hobby traders predicting which stock to hold, buy or sell could be time consuming process. Will the stock price go up or down based on news, companies’ financial results, should I hold the stock for dividends. 
 
 #### Research Question
 Can we develop a model to predict whether to hold, buy, or sell S&P 500 stocks based on historical data and external factors like news and trends?
+Users will input their held or monitored stock tickers, and the model will provide recommendations for optimal selling times for held stocks and opportune moments for purchasing monitored stocks. Leveraging historical data, news sentiment, and market trends, the model aims to empower users with personalized insights to enhance their trading decisions and potentially maximize investment returns.
 
 #### Data Sources
 * Kaggle Massive Yahoo Finance Dataset: https://www.kaggle.com/datasets/iveeaten3223times/massive-yahoo-finance-dataset
