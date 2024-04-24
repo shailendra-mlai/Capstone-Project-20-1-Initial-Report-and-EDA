@@ -16,19 +16,21 @@ Users will input their held or monitored stock tickers, and the model will provi
 #### Data Sources
 * Kaggle Massive Yahoo Finance Dataset: https://www.kaggle.com/datasets/iveeaten3223times/massive-yahoo-finance-dataset
 *	Kaggle S&P500 Stock Prices: Historical stock price data of all S&P500 companies: https://www.kaggle.com/datasets/rprkh15/sp500-stock-prices/
-*	Also using the data using APIs https://pypi.org/project/yfinance/ from https://finance.yahoo.com/
+*	Also extract the data using APIs https://pypi.org/project/yfinance/ from https://finance.yahoo.com/
 
 
 #### Methodology
-Time series forecasting techniques will be applied to historical stock price data, including yearly and weekly trends. Correlations between different company stocks will be explored to understand sector-wide impacts. Classifiers will then be used to provide buy, sell, or hold recommendations.
+The methodology for forecasting stock prices combines time series techniques with machine learning methods for buy, sell, or hold recommendations. Initially, historical stock price data is analyzed to identify yearly and weekly trends, as well as correlations between different company stocks to understand sector-wide impacts. Subsequently, pmdarima is employed for automated selection of optimal ARIMA parameters, followed by model training and evaluation on separate datasets. Finally, forecasts are generated for future stock prices using the trained model, facilitating informed decision-making for traders
 
 #### Results
-The trained models will enable traders to make more informed decisions, reducing the time required for stock analysis. An app created using https://streamlit.io/ could allow users to input a stock symbol and receive a recommendation.
+The model was evaluated using ARIMA and forecasted using STLForecast, leveraging the pmdarima and statsmodels package. pmdarima automates the process of finding optimal ARIMA(p, d, q) parameters, while statsmodels requires manual parameter optimization. This automated approach streamlines the modeling process and eliminates the need for manual parameter tuning, enhancing efficiency and accuracy in forecasting.
+The trained models will enable traders to make more informed decisions, reducing the time required for stock analysis.
 
 #### Next steps
 Explore additional features that may influence stock price movements, such as technical indicators such as moving averages, relative strength index, macroeconomic indicators like interest rates, GDP growth, and sentiment analysis of news and social media.
 Develop risk management strategies to mitigate potential losses, such as setting stop-loss orders, diversifying investment portfolios, and incorporating risk-adjusted return metrics into the decision-making process.
-Engage in ongoing learning and research to refine the model and stay ahead of market trends and emerging patterns.
+Exploring LSTM (Long Short Term Memory) for stock price forecasting entails leveraging the network's ability to capture complex temporal dependencies in historical stock price data. By training an LSTM model on historical stock price sequences, it can learn patterns and trends that may indicate future price movements. 
+An app created using https://streamlit.io/ could allow users to input a stock symbol and receive a recommendation.
 
 
 #### Outline of project
