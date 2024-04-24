@@ -35,7 +35,7 @@ An app created using https://streamlit.io/ could allow users to input a stock sy
 
 #### Outline of project
 
-- [Link to notebook 1]()
+- [Intial EDA](Capstone-initial-eda.ipynb)
 - 
 - 
 
