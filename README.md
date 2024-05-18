@@ -10,9 +10,9 @@ The Predictive Model for S&P 500 Stock endeavors to provide actionable insights 
 Can a predictive model, utilizing historical data and external factors such as news and trends, effectively recommend whether to hold, buy, or sell S&P 500 stocks? The goal is to determine if such a model can enhance decision-making for part-time or hobby traders by providing timely and actionable trading insights.
 
 #### Data Sources
-* [Kaggle Massive Yahoo Finance Dataset](https://www.kaggle.com/datasets/iveeaten3223times/massive-yahoo-finance-dataset)
-*	[Kaggle S&P500 Stock Prices Historical stock price data of all S&P500 companies](https://www.kaggle.com/datasets/rprkh15/sp500-stock-prices/)
-*	Extract the data using APIs https://pypi.org/project/yfinance/ from https://finance.yahoo.com/
+* [Kaggle Massive Yahoo Finance Dataset](https://www.kaggle.com/datasets/iveeaten3223times/massive-yahoo-finance-dataset) for [Forecasting stock price using ARIMA](https://github.com/shailendra-mlai/Predictive-Model-for-SAP-500-Stock/blob/main/Initial-eda-arima.ipynb)
+
+*	Extract the data using [APIs](https://pypi.org/project/yfinance/) from https://finance.yahoo.com/. There is no need to dowload the dataset. 
 
 
 #### Methodology
