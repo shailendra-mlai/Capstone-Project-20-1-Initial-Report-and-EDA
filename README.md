@@ -1,4 +1,4 @@
-### Predictive Model for S&P 500 Stock Trading
+### Predictive Model for S&P 500 Stock
 
 **Author**
 Shailendra Mruthunjaya
