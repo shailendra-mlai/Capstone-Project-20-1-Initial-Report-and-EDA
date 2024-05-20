@@ -40,15 +40,16 @@ The evaluation of the model involved utilizing two different approaches: ARIMA a
 
 Furthermore, the LSTM model proved to be beneficial for traders by offering actionable insights and facilitating informed decision-making. By analyzing the trends and patterns in stock prices, the LSTM model provided accurate forecasts, thus empowering traders to make informed decisions efficiently. This resulted in a reduction in the time required for stock analysis while ensuring reliable predictions to guide trading strategies.
 
+An app created using Streamlit allows users to input a stock symbol and receive a recommendation. You can access the app via this link: [Stock Prediction App](https://app-stock-predict-3zmrnehpxway7dp4dziqdf.streamlit.app/)
+
 #### Next steps
 - Explore additional features that may influence stock price movements, such as technical indicators such as moving averages, relative strength index, macroeconomic indicators like interest rates, GDP growth, and sentiment analysis of news and social media.
-- Develop risk management strategies to mitigate potential losses, such as setting stop-loss orders, diversifying investment portfolios, and incorporating risk-adjusted return metrics into the decision-making process. 
-- An app created using https://streamlit.io/ could allow users to input a stock symbol and receive a recommendation.
-
+- Develop risk management strategies to mitigate potential losses, such as setting stop-loss orders, diversifying investment portfolios, and incorporating risk-adjusted return metrics into the decision-making process.
 
 #### Outline of project
 
 - [Forecasting stock price using ARIMA](https://github.com/shailendra-mlai/Predictive-Model-for-SAP-500-Stock/blob/main/Initial-eda-arima.ipynb)
 - [Forecasting stock price using LSTM](https://github.com/shailendra-mlai/Predictive-Model-for-SAP-500-Stock/blob/main/LSTM-Stock-price-prediction.ipynb)
-- [Notebook to develop steamlit app with user input](https://github.com/shailendra-mlai/Predictive-Model-for-SAP-500-Stock/blob/main/LSTM-App.ipynb)
+- [Steamlit app github repo](https://github.com/shailendra-mlai/streamlit-stock-predict)
+- [Stock Prediction Streamlit App](https://app-stock-predict-3zmrnehpxway7dp4dziqdf.streamlit.app/)
 
