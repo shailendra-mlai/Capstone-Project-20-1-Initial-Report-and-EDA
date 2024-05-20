@@ -50,6 +50,6 @@ An app created using Streamlit allows users to input a stock symbol and receive 
 
 - [Forecasting stock price using ARIMA](https://github.com/shailendra-mlai/Predictive-Model-for-SAP-500-Stock/blob/main/Initial-eda-arima.ipynb)
 - [Forecasting stock price using LSTM](https://github.com/shailendra-mlai/Predictive-Model-for-SAP-500-Stock/blob/main/LSTM-Stock-price-prediction.ipynb)
-- [Steamlit app github repo](https://github.com/shailendra-mlai/streamlit-stock-predict)
+- [Streamlit app github repo](https://github.com/shailendra-mlai/streamlit-stock-predict)
 - [Stock Prediction Streamlit App](https://app-stock-predict-3zmrnehpxway7dp4dziqdf.streamlit.app/)
 
